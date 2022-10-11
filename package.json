@@ -1,0 +1,22 @@
+{
+  "name": "API_AUTOMATION",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "node_modules/.bin/cypress open",
+    "cypress:run": "node_modules/.bin/cypress run",
+    "cypress:record": "npx cypress run --record --key 1ee4cf69-d0bf-46b4-bf2a-5eb8c0137f12"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "crypto": "^1.0.1",
+    "cypress": "^8.2.0",
+    "cypress-localstorage-commands": "^1.4.3"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  }
+}
